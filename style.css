@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background: hsl(27, 66%, 92%);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    flex-direction: column;
+    min-width: 320px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsl(10, 79%, 65%);
+    padding: 15px 25px;
+    min-width: 320px;
+    border-radius: 15px;
+    color: #fff;
+    width: 30%;
+}
+
+.another {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.amount {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.my {
+    font-size: 18px;
+}
+
+.dollar {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.image > img {
+    width: 55px;
+    height: 55px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 15px;
+    width: 30%;
+    min-width: 320px;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+h1 {
+    margin-bottom: 25px;
+    font-size: 25px;
+
+}
+
+.all-chart {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.chart1 {
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 3px;
+    width: 30px;
+    height: 50px;
+    margin: 10px;
+    display: flex;
+    align-items: flex-end;
+    align-self: flex-end;
+}
+
+.chart2 {
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 3px;
+    width: 30px;
+    height: 110px;
+    margin: 10px;
+    line-height: 20px;
+    display: flex;
+    align-items: flex-end;
+    align-self: flex-end;
+}
+
+#chart3 {
+    background-color: hsl(186, 34%, 60%);
+    border-radius: 3px;
+    width: 30px;
+    height: 150px;
+    margin: 10px;
+    display: flex;
+    align-items: flex-end;
+    align-self: flex-end;
+}
+
+.chart4 {
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 3px;
+    width: 30px;
+    height: 90px;
+    margin: 10px;
+    display: flex;
+    align-items: flex-end;
+    align-self: flex-end;
+}
+
+.chart5 {
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 3px;
+    width: 30px;
+    height: 65px;
+    margin: 10px;
+    display: flex;
+    align-items: flex-end;
+    align-self: flex-end;
+}
+
+.chart6 {
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 3px;
+    width: 30px;
+    height: 130px;
+    margin: 10px;
+    display: flex;
+    align-items: flex-end;
+    align-self: flex-end;
+}
+
+.chart7 {
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 3px;
+    width: 30px;
+    height: 70px;
+    margin: 10px;
+    display: flex;
+    align-items: flex-end;
+    align-self: flex-end;
+}
+
+.text {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.days {
+    margin: 10px;
+    padding: 5px -3px;
+
+}
+
+.lastly {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.final {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    gap: 7px;
+}
+
+.total {
+    font-size: 13px;
+    color: gray;
+}
+
+.money {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.last-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.end {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.digit {
+    margin-left: 50px;
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+.last-text {
+    font-size: 13px;
+    color: gray;
+}
+
+
+.attribution {
+    margin-top: 15px;
+    font-size: 13px;
+}
