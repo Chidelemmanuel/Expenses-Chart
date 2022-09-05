@@ -16,7 +16,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 40px;
     flex-direction: column;
     min-width: 320px;
 }
@@ -84,7 +84,7 @@ h1 {
 .chart1 {
     background-color: hsl(10, 79%, 65%);
     border-radius: 3px;
-    width: 30px;
+    width: 40px;
     height: 50px;
     margin: 10px;
     display: flex;
@@ -95,7 +95,7 @@ h1 {
 .chart2 {
     background-color: hsl(10, 79%, 65%);
     border-radius: 3px;
-    width: 30px;
+    width: 40px;
     height: 110px;
     margin: 10px;
     line-height: 20px;
@@ -107,8 +107,8 @@ h1 {
 #chart3 {
     background-color: hsl(186, 34%, 60%);
     border-radius: 3px;
-    width: 30px;
-    height: 150px;
+    width: 40px;
+    height: 170px;
     margin: 10px;
     display: flex;
     align-items: flex-end;
@@ -118,7 +118,7 @@ h1 {
 .chart4 {
     background-color: hsl(10, 79%, 65%);
     border-radius: 3px;
-    width: 30px;
+    width: 40px;
     height: 90px;
     margin: 10px;
     display: flex;
@@ -129,7 +129,7 @@ h1 {
 .chart5 {
     background-color: hsl(10, 79%, 65%);
     border-radius: 3px;
-    width: 30px;
+    width: 40px;
     height: 65px;
     margin: 10px;
     display: flex;
@@ -140,8 +140,8 @@ h1 {
 .chart6 {
     background-color: hsl(10, 79%, 65%);
     border-radius: 3px;
-    width: 30px;
-    height: 130px;
+    width: 40px;
+    height: 140px;
     margin: 10px;
     display: flex;
     align-items: flex-end;
@@ -151,7 +151,7 @@ h1 {
 .chart7 {
     background-color: hsl(10, 79%, 65%);
     border-radius: 3px;
-    width: 30px;
+    width: 40px;
     height: 70px;
     margin: 10px;
     display: flex;
@@ -164,12 +164,60 @@ h1 {
     margin-bottom: 15px;
     color: gray;
     font-size: 13px;
+    /* max-width: 320px; */
 }
+
+@media (min-width: 768px) {
+    .text {
+        font-size: 13px;
+        font-weight: lighter;
+    }
+}
+
+@media (min-width: 1024px) {
+    .text {
+        font-size: 13px;
+        font-weight: lighter;
+        gap: -2px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .text {
+        font-size: 13px;
+        font-weight: lighter;
+        gap: 6px;
+    }
+}
+
+@media (min-width: 1350px) {
+    .text {
+        font-size: 13px;
+        font-weight: lighter;
+        gap: 13px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .text {
+        font-size: 13px;
+        font-weight: lighter;
+        gap: 17px;
+    }
+}
+
+@media (min-width: 2560px) {
+    .text {
+        font-size: 13px;
+        font-weight: lighter;
+        gap: 20px;
+    }
+}
+    
+
 
 .days {
     margin: 10px;
-    padding: 5px -3px;
-
 }
 
 .lastly {
