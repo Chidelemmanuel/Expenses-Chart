@@ -79,8 +79,6 @@ h1 {
 
 .all-chart {
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
 }
 
 .chart1 {
@@ -164,6 +162,8 @@ h1 {
 .text {
     display: flex;
     margin-bottom: 15px;
+    color: gray;
+    font-size: 13px;
 }
 
 .days {
